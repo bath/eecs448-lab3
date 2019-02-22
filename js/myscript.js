@@ -1,7 +1,7 @@
 function validate()
 {
-  let p1 = document.getElementById("PW1");
-  let p2 = document.getElementById("PW2");
+  let p1 = document.getElementById("PW1").value;
+  let p2 = document.getElementById("PW2").value;
   if(p1 != p2)
   {
     alert("Passwords incorrect.");

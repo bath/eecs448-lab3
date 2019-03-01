@@ -89,12 +89,6 @@ a:visited
   width:900px;
 }
 
-#dumbPara
-{
-  background-color:black;
-  color:#20C20E;
-}
-
 #label
 {
   background-color:magenta;
@@ -104,4 +98,15 @@ a:visited
 {
   background-color:blue;
   width:150px;
+}
+
+.formstuff
+{
+  background-color:magenta;
+  width:500px;
+}
+
+#dumbPara
+{
+  border-style:solid;
 }

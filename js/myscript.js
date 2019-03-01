@@ -56,3 +56,24 @@ let imgArray = [
   "https://www.aquinas-sta.org/uploaded/faculty_photos/28000024.jpg",
   "https://bobcat.grahamdigital.com/image/upload/view?width=1280&height=720&method=crop&url=https://media.local10.com/photo/2019/01/15/Patrick-O%27Dea_1547573276765_17505875_ver1.0_640_360.jpg",
 ]
+
+function bothFunc()
+{
+  let red = document.getElementById("rv").value;
+  let green = document.getElementById("gv").value;
+  let blue = document.getElementById("bv").value;
+  let width = document.getElementById("wid").value;
+  let para = document.getElementById("dumbPara");
+
+  let redB = document.getElementById("rb").value;
+  let greenB = document.getElementById("gb").value;
+  let blueB = document.getElementById("bb").value;
+
+  para.style.backgroundColor = 'rgb(' + [redB,greenB,blueB].join(',') + ')';
+  para.style.borderColor = 'rgb(' + [red,green,blue].join(',') + ')';
+
+
+  console.log(width);
+  para.style.borderWidth = width;
+
+}

@@ -3,6 +3,10 @@ body
   background-image:url("pup.jpg");
 }
 
+*
+{
+  font-family:'Comic Sans MS';
+}
 
 #fire
 {
@@ -20,4 +24,84 @@ body
 #l2
 {
   color:cyan;
+}
+
+a:visited
+{
+  color:blue;
+}
+
+#imgTag
+{
+  width:400px;
+  height:500px;
+}
+
+.container
+{
+  position:fixed;
+  top:12em;
+  width:100%;
+
+}
+.imageCont
+{
+  display:inline-block;
+  position:relative;
+  left:39em;
+  width:50%;
+}
+
+.buttons
+{
+  position:relative;
+  bottom:22em;
+}
+
+#h1
+{
+  position:relative;
+  left:21.5em;
+}
+#home
+{
+
+}
+
+#para
+{
+  position:relative;
+  top:10em;
+}
+
+#para span
+{
+  background-color:white;
+}
+
+#para:hover
+{
+  background-color:purple;
+}
+
+#reqImg
+{
+  width:900px;
+}
+
+#dumbPara
+{
+  background-color:black;
+  color:#20C20E;
+}
+
+#label
+{
+  background-color:magenta;
+}
+
+#titlething
+{
+  background-color:blue;
+  width:150px;
 }

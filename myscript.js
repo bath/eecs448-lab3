@@ -7,7 +7,7 @@ function validate() //checks the two passwords
   {
     alert("Passwords incorrect.");
   }
-  else if(p1.length != 8)
+  else if(p1.length < 8)
   {
     alert("The password you entered was not long enough.");
   }
